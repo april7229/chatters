@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Sidebar } from "./containers/Sidebar"
 import {MessagesList} from "./containers/MessageList"
-import { AddMessage } from "./container/AddMessage"
+import { AddMessage } from "./containers/AddMessage"
 
 class App extends Component {
   render()  {
