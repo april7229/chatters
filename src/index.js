@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 
-import chat from './reducers;
+import chat from './reducers';
 
 const store = createStore(chat)
 
